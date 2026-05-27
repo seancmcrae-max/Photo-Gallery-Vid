@@ -18,10 +18,12 @@ export const MEDIA_ITEMS: Array<{
   type: 'image' | 'video';
   durationInFrames: number; // 90 = 3 s at 30 fps
 }> = [
-  {src: staticFile('photo1.jpg'), type: 'image', durationInFrames: 120},
-  {src: staticFile('photo2.jpg'), type: 'image', durationInFrames: 120},
-  {src: staticFile('photo3.jpg'), type: 'image', durationInFrames: 120},
-  {src: staticFile('photo4.jpg'), type: 'image', durationInFrames: 120},
+  {src: staticFile('ive 26 bday.MPG'),    type: 'video', durationInFrames: 150},
+  {src: staticFile('Ive 26th pt2.MPG'),   type: 'video', durationInFrames: 150},
+  {src: staticFile('mami bday dance.m4v'),type: 'video', durationInFrames: 150},
+  {src: staticFile('IMG_3256.m4v'),       type: 'video', durationInFrames: 150},
+  {src: staticFile('IMG_2804.m4v'),       type: 'video', durationInFrames: 150},
+  {src: staticFile('IMG_2686.m4v'),       type: 'video', durationInFrames: 150},
 ];
 
 // Frames before the end of each slot when the shutter fires
